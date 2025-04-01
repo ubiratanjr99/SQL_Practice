@@ -38,11 +38,11 @@ VALUES
 
 INSERT INTO TabelaEmprestimo (id_emprestimo, Status, Prazo, DataInicio, Tipo, Valor, id_cliente)
 VALUES
-('E01', TRUE, 12, '2023-01-01', 'Pessoal', 5000.00, 'CL01'),
-('E02', FALSE, 24, '2023-02-15', 'Imobiliário', 100000.00, 'CL02'),
-('E03', TRUE, 36, '2023-03-10', 'Automóvel', 25000.00, 'CL03'),
-('E04', TRUE, 18, '2023-04-20', 'Consignado', 15000.00, 'CL04'),
-('E05', FALSE, 48, '2023-05-18', 'Pessoal', 7000.00, 'CL05');
+('E01', 1, 12, '2023-01-01', 'Pessoal', 5000.00, 'CL01'),
+('E02', 0, 24, '2023-02-15', 'Imobiliário', 100000.00, 'CL02'),
+('E03', 1, 36, '2023-03-10', 'Automóvel', 25000.00, 'CL03'),
+('E04', 1, 18, '2023-04-20', 'Consignado', 15000.00, 'CL04'),
+('E05', 0, 48, '2023-05-18', 'Pessoal', 7000.00, 'CL05');
 
 
 
